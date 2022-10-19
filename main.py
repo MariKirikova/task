@@ -13,4 +13,4 @@ def check_ticket(a, b):
  
 n = int(input("Enter the ticket number:"))
 if check_ticket(calculate_sum(n//1000),calculate_sum(n%1000)):
-    print('Lucky ticket!')
+    print('Your ticket is lucky')
